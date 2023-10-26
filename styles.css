@@ -9,6 +9,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
+  font-family: sans-serif;
 }
 
 .header {
@@ -25,18 +26,68 @@ body {
   gap: 16px;
 }
 
-.header {
+.header,
+.underheader {
   background-color: #1f2937;
+}
+
+.header {
   padding: 16px 200px;
+}
+
+.underheader {
+  padding: 40px 200px;
+}
+
+.logo,
+.title,
+.sign-up {
+  color: #f9faf8;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #f9faf8;
 }
 
-a {
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+a,
+.undertitle-text,
+.image-placeholder {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.underheader {
+  display: flex;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  padding: 6px 18px;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 16px;
+  flex-grow: 0;
+}
+
+.image-placeholder {
+  width: 600px;
+  height: 250px;
+  background-color: #8a8a8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-section {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
