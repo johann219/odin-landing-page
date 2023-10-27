@@ -8,6 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 16px 200px;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .links {
@@ -18,64 +26,44 @@
   gap: 16px;
 }
 
-.header,
-.underheader {
-  background-color: #1f2937;
-}
-
-.header {
-  padding: 16px 200px;
-}
-
-.underheader {
-  padding: 80px 200px;
-}
-
-.logo,
-.title,
-.sign-up {
-  color: #f9faf8;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 48px;
-  margin: 0;
-}
-
-a,
-.undertitle-text,
-.image-placeholder {
+a {
   text-decoration: none;
   color: #e5e7eb;
 }
 
-.underheader {
+.hero {
   display: flex;
+  padding: 80px 200px;
+  background-color: #1f2937;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+  color: #f9faf8;
 }
 
 .sign-up {
-  background-color: #3882f6;
   padding: 6px 18px;
+  margin-top: 16px;
   border-radius: 4px;
   border: 0;
-  margin-top: 16px;
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 
-.image-main {
-  width: 405px;
-  height: 270px;
+.hero-image {
+  width: 600px;
+  height: 400px;
+  border-radius: 12px;
 }
 
-.title-section {
+.hero-text {
   margin-right: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  color: #e5e7eb;
 }
