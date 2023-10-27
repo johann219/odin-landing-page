@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  font-family: sans-serif;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +28,7 @@ body {
 }
 
 .underheader {
-  padding: 40px 200px;
+  padding: 80px 200px;
 }
 
 .logo,
@@ -73,16 +65,11 @@ a,
   border-radius: 4px;
   border: 0;
   margin-top: 16px;
-  flex-grow: 0;
 }
 
-.image-placeholder {
-  width: 600px;
-  height: 250px;
-  background-color: #8a8a8a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.image-main {
+  width: 405px;
+  height: 270px;
 }
 
 .title-section {
@@ -90,4 +77,5 @@ a,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
 }
