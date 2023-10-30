@@ -56,6 +56,7 @@ a {
   border: 0;
   background-color: #3882f6;
   color: #f9faf8;
+  font-weight: 700;
 }
 
 .hero-image {
@@ -138,4 +139,32 @@ a {
   font-weight: bold;
   padding-right: 50px;
   margin: 0;
+}
+
+/*ACTION SECTION*/
+
+.action-section {
+  display: flex;
+  background-color: #3882f6;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.action-call,
+.action-proposition {
+  margin: 0;
+}
+
+.action-call {
+  font-size: 24px;
+}
+
+.action-section .sign-up {
+  border: 2px solid white;
+  margin: 0;
+  align-self: flex-end;
 }
